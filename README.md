@@ -1,5 +1,14 @@
 # deej
 
+## This Fork Contains some fixes and my personal configs, check before using!
+
+### Firefox audio jump fix
+1. Type "about:config" into Firefox's search bar, proceed anyway if any warnings appear
+2. Add an entry "media.cubeb.backend"
+3. Set type to "string"
+4. Set the value of the string to alsa
+5. Change config to use alsa_playback.firefox
+
 deej is an **open-source hardware volume mixer** for Windows and Linux PCs. It lets you use real-life sliders (like a DJ!) to **seamlessly control the volumes of different apps** (such as your music player, the game you're playing and your voice chat session) without having to stop what you're doing.
 
 **Join the [deej Discord server](https://discord.gg/nf88NJu) if you need help or have any questions!**
