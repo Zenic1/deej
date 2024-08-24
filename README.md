@@ -9,6 +9,11 @@
 4. Set the value of the string to alsa
 5. Change config to use alsa_playback.firefox
 
+Credit to peeteer1245, VS-X for various fixes and @dux8 from deej discord server for alsa fix
+
+Oh and omriharel for creating deej
+---
+
 deej is an **open-source hardware volume mixer** for Windows and Linux PCs. It lets you use real-life sliders (like a DJ!) to **seamlessly control the volumes of different apps** (such as your music player, the game you're playing and your voice chat session) without having to stop what you're doing.
 
 **Join the [deej Discord server](https://discord.gg/nf88NJu) if you need help or have any questions!**
