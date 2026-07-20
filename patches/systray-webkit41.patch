@@ -1,0 +1,13 @@
+diff --git a/vendor/github.com/getlantern/systray/systray_nonwindows.go b/vendor/github.com/getlantern/systray/systray_nonwindows.go
+index 0964785..b564879 100644
+--- a/vendor/github.com/getlantern/systray/systray_nonwindows.go
++++ b/vendor/github.com/getlantern/systray/systray_nonwindows.go
+@@ -4,7 +4,7 @@ package systray
+ 
+ /*
+ #cgo linux CFLAGS: -DWEBVIEW_GTK=1
+-#cgo linux pkg-config: gtk+-3.0 webkit2gtk-4.0 appindicator3-0.1
++#cgo linux pkg-config: gtk+-3.0 webkit2gtk-4.1 appindicator3-0.1
+ #cgo darwin CFLAGS: -DDARWIN -x objective-c -fobjc-arc
+ #cgo darwin LDFLAGS: -framework Cocoa -framework WebKit
+ 

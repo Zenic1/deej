@@ -1,6 +1,18 @@
 # deej
 
+
+
+
 ## This Fork Contains some fixes and my personal configs, check before using!
+
+### Rebuilding vendor/
+
+If you run `go mod vendor` (e.g. after adding a new dependency), you must
+reapply the local patch that switches systray from webkit2gtk-4.0 to 4.1
+(fixes a libjxl symbol version mismatch on some distros):
+
+    go mod vendor
+    git apply patches/systray-webkit41.patch
 
 ### Firefox audio jump fix
 1. Type "about:config" into Firefox's search bar, proceed anyway if any warnings appear
